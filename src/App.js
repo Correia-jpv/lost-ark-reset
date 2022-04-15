@@ -11,8 +11,8 @@ const App = () => {
 		<h1 className="text-center">
 			Lost Ark EU/NA weekly and daily reset times and countdown
 		</h1>,
-		<Suspense fallback={<div>Loading timer...</div>}>
-			<ResetCountdownTimers />,
+		<Suspense fallback={<div className="text-center">Loading timer...</div>}>
+			<ResetCountdownTimers />
 		</Suspense>,
 		<Footer />,
 	];
